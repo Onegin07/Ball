@@ -1,0 +1,107 @@
+div{
+	position: relative;
+	width: 150px;
+	height: 100px;
+	overflow: hidden;
+}
+  
+img{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+#igra {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	border: 2px solid grey;
+}
+
+#info-block {
+	margin: 20px auto;
+	display: block;
+	padding: 20px 40px;
+	font-size: 20px;
+	top: -50px;
+	left: 0px;
+	color: green;
+
+}
+
+.ball {
+	background: #c7b39b;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: -100px; /* 0 => 500 - 50 = 450 */
+	left: -100px; /* 0 => 1000 - 50 = 950 */
+	display: block;
+	transition: all 1s;
+}
+ 
+.left {
+    top: 500px;
+    left: -100px;
+}
+
+.right {
+	top: 500px;
+	left: 700px;
+}
+
+#stars {
+	font-size: 34px;
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+
+#lifes {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+
+#lifes span {
+	width:  23px;
+	height: 23px;
+	border-radius:  50%;
+	border: 3px solid #fff;
+	background: red;
+	display: block;
+	float: left;	
+}
+
+#start-block {
+	width: 100%;
+	height: 100%;
+	background: blue;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#start-block button {
+	margin: 100px auto;
+	display: block;
+	padding: 40px 80px;
+	font-size: 34px;
+	background: yellow;
+
+}
+#koniec-igra {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: green;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
